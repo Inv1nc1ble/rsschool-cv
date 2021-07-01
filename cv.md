@@ -29,7 +29,7 @@ ___
 ## Skills
 * Good English knowledge (B2+ level)
 * Great knowledge of programming languages including Java, JavaScript
-* Experiense in using such technologies as:
+* Experience in using such technologies as:
     1. Bootstrap
     1. Git
     1. JQuery
