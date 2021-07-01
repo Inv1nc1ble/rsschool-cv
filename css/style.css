@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    outline: none;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 30px; 
+    padding-bottom: 50px;
+    background-color: #fff;
+}
+
+p {
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat-Bold', sans-serif;
+}
+
+.container {
+    min-width: 1280px;
+    width: 1280px;
+    margin: 0 auto;    
+}
+
+.author-name {
+    text-decoration: underline;
+}
