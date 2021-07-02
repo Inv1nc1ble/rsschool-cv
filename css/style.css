@@ -4,7 +4,7 @@
 }
 
 html {
-    font-size: 16px;
+    font-size: 14px;
 }
 
 body {
@@ -15,7 +15,8 @@ body {
 }
 
 p {
-    margin: 0;
+    /* margin: 0; */
+    line-height: 2rem;
 }
 
 h1,
@@ -27,12 +28,118 @@ h6 {
     font-family: 'Montserrat-Bold', sans-serif;
 }
 
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2.0rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {  
+    padding: 0.5rem 0;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
 .container {
-    min-width: 1280px;
-    width: 1280px;
+    /* border: 1px solid black; */
+    min-width: 1024px;
+    max-width: 1024px;
     margin: 0 auto;    
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    width: 300px;
+    height: auto;
+}
+
+section, article {
+    margin-top: 30px;
+    padding: 20px 0;
+    border-top: 3px solid rgb(129, 127, 127);
 }
 
 .author-name {
     text-decoration: underline;
+}
+
+.author-life-positions {
+    font-size: 1.5rem;
+}
+
+.author-life-positions span {
+    font-weight: bold;
+}
+
+.contact-list {
+    
+}
+ 
+.contact-list li > a {
+    text-decoration: none;
+    color: #000;
+}
+
+.contact-list-title {
+    font-size: 1.25em;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.section-inner-title {
+    margin: 10px 0;
+}
+
+.section-list {
+    margin-left: 20px;
+    list-style-type: square;
+    margin-bottom: 20px;
+}
+
+.section-list > li {
+    font-weight: bold;
+}
+
+.section-list a:hover {
+    text-decoration: underline;
+}
+
+.section-list .section-inner-list {
+    list-style-type: circle;
+    font-weight: normal;
+    font-size: .8rem;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+.section-list .ordered-inner-list {
+    list-style-type: decimal;
+    padding: 0;
+}
+
+.skills-inner-list {
+    border: 1px solid red;
+    font-weight: normal;
+    font-size: .8rem;
+    padding-left: 15px;
 }
