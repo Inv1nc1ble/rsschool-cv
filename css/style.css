@@ -15,7 +15,7 @@ body {
 }
 
 p {
-    /* margin: 0; */
+    margin: 0;
     line-height: 2rem;
 }
 
@@ -38,6 +38,10 @@ h2 {
 
 h3 {
     font-size: 1.5rem;
+}
+
+h4 {
+    margin: 0;
 }
 
 ul {
@@ -137,9 +141,51 @@ section, article {
     padding: 0;
 }
 
-.skills-inner-list {
-    border: 1px solid red;
-    font-weight: normal;
+
+.task {
+    /* border: 1px solid red; */
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.task-right {
+    border: none;
+    max-width: 500px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    padding: 30px 50px;
+    border-radius: 10px;
+}
+
+.task-btn {
+    margin-top: 15px;
+}
+
+.btn {
+    display: inline-block;
+    border: none;
+    color: #fff;
+    text-decoration: none;
+    background-color: #F9C869;
+    padding: 16px 25px;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 3px;
+    border-radius: 2px;
+    text-align: center;
+    position: relative;
+    outline: none;
+    transition: background-color .1s ease;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #ecab28;
+    box-shadow: 0 0 10px #F9C869;
+}
+
+.task-code {
     font-size: .8rem;
-    padding-left: 15px;
 }
