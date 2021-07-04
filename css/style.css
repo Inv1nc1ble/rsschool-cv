@@ -44,6 +44,11 @@ h4 {
     margin: 0;
 }
 
+.fab {
+    font-family: 'Font Awesome 5 Brands';
+    font-weight: 400; 
+}
+
 ul {
     list-style: none;
     padding: 0;
@@ -54,13 +59,12 @@ li {
     padding: 0.5rem 0;
 }
 
-ul li a {
+a {
     text-decoration: none;
     color: #000;
 }
 
 .container {
-    /* border: 1px solid black; */
     min-width: 1024px;
     max-width: 1024px;
     margin: 0 auto;    
@@ -77,7 +81,7 @@ header img {
     height: auto;
 }
 
-section, article {
+section, article, footer {
     margin-top: 30px;
     padding: 20px 0;
     border-top: 3px solid rgb(129, 127, 127);
@@ -93,10 +97,6 @@ section, article {
 
 .author-life-positions span {
     font-weight: bold;
-}
-
-.contact-list {
-    
 }
  
 .contact-list li > a {
@@ -143,8 +143,6 @@ section, article {
 
 
 .task {
-    /* border: 1px solid red; */
-    
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -156,6 +154,8 @@ section, article {
     box-shadow: 0 0 20px rgba(0,0,0,0.1);
     padding: 30px 50px;
     border-radius: 10px;
+    opacity: 0;
+    transition: opacity .7s ease;
 }
 
 .task-btn {
@@ -169,23 +169,53 @@ section, article {
     text-decoration: none;
     background-color: #F9C869;
     padding: 16px 25px;
+    min-width: 180px;
     font-size: 12px;
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 3px;
     border-radius: 2px;
     text-align: center;
-    position: relative;
     outline: none;
     transition: background-color .1s ease;
     cursor: pointer;
 }
 
 .btn:hover {
-    background-color: #ecab28;
+    background-color: #f7c054;
+    box-shadow: 0 0 10px #F9C869;
+}
+
+.btn:active {
+    background-color: #f3b12d;
     box-shadow: 0 0 10px #F9C869;
 }
 
 .task-code {
     font-size: .8rem;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.my-git a {
+    display: block;
+    font-size: 1.5rem;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid rgb(51, 50, 50);
+    transition: all .2s ease;
+}
+
+.my-git a:hover {
+    color: #fff;
+    background-color: #000;
+}
+
+.footer-logo img {
+    width: 200px;
+    height: auto;
 }
