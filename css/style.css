@@ -76,9 +76,9 @@ header {
     align-items: center;
 }
 
-header img {
+header .author-photo {
     width: 300px;
-    height: auto;
+    height: 250px;
 }
 
 section, article, footer {
