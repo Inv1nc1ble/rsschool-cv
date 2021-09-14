@@ -72,8 +72,7 @@ a {
 }
 
 section, article, footer {
-    margin-top: 30px;
-    padding: 20px 0;
+    padding: 50px 0;
     border-top: 3px solid rgb(129, 127, 127);
 }
 
@@ -203,7 +202,7 @@ section, article, footer {
 
 .section-inner-title {
     display: inline-block;
-    background-color: rgb(223, 220, 89);
+    /* background-color: rgb(223, 220, 89); */
     margin: 10px 0;
 }
 
