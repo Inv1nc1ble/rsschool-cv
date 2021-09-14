@@ -1,5 +1,7 @@
+import burger from './burger/burger.js';
+
 window.addEventListener('DOMContentLoaded', () => {
-    console.log("hello from js");
+    burger();
 
     let codeBlock = document.querySelector('.task-right');
     let showButton = document.querySelector('#show-btn');
