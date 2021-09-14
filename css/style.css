@@ -139,11 +139,6 @@ section, article, footer {
     font-size: 18px;
 }
 
-.header_link:hover {
-    /* background-color: rgb(255, 160, 17); */
-}
-
-
 
 
 
@@ -188,6 +183,24 @@ section, article, footer {
     margin-right: 5px;
 }
 
+/************ Video ***********/
+
+.about-me .video {
+    margin-top: 20px;
+    width: 500px;
+    height: 315px;
+}
+
+.about-me iframe {
+    border: none;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/*********** Skills ***********/
+
 .section-inner-title {
     display: inline-block;
     background-color: rgb(223, 220, 89);
@@ -216,7 +229,6 @@ section, article, footer {
 }
 
 .skill-menu-item {
-    /* padding-left: 50px; */
     justify-content: space-between;
     align-items: center;
     display: flex;
@@ -357,6 +369,40 @@ section, article, footer {
 .task-code {
     font-size: .8rem;
 }
+
+/*************** my projects *************/
+.my-projects-title {
+    margin-bottom: 20px;
+}
+
+.my-projects span {
+    color: #F9C869;
+}
+
+.project-preview {
+    display: inline-block;
+    width: 400px;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+.project-preview img {
+    width: 100%;
+    height: 100%;
+    filter: saturate(0);
+    transition: filter 0.3s ease;
+}
+
+.project-preview:hover img {
+    filter: saturate(1);
+}
+
+.project-semititle {
+    font-weight: 800;
+}
+
+
+/************ Footer *************/
 
 footer {
     display: flex;
@@ -575,6 +621,11 @@ footer {
         width: 150px;
         height: auto;
     }
+
+    .about-me .video {
+        width: 400px;
+        height: 253px;
+    }
 }
 
 @media (max-width: 468px) {
@@ -595,6 +646,15 @@ footer {
 
     .progressbar::after {
         display: none;
+    }
+
+    .project-preview {
+        width: 200px;
+    }
+
+    .about-me .video {
+        width: 280px;
+        height: 177px;
     }
 }
 
